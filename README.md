@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://kriiiiss.github.io/CSE110_Lab2/
+# Lab 3
+https://kriiiiss.github.io/CSE110_Lab3/
