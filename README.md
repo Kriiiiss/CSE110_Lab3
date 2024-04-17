@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-The update will be in Newbrunch
+https://kriiiiss.github.io/CSE110_Lab2/
