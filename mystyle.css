@@ -39,7 +39,7 @@ h4{
     width: 100px;
     margin: 10px 20px 30px 40px; 
     font-size: 0.2in;
-    color: color(lab 56% 40 50);
+    color: color(srgb 0 0 1);
 }
 
 /* h5 color deep red*/
