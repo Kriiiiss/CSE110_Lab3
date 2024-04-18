@@ -39,7 +39,7 @@ h4{
     width: 100px;
     margin: 10px 20px 30px 40px; 
     font-size: 0.2in;
-    color: color(display-p3 1 0 0.331)
+    color: color(xyz-d50 0.3 80 0.3)
 }
 
 /* h5 color deep red*/
@@ -48,7 +48,7 @@ h5{
     padding: 10px 20px 30px 40px;
     margin: auto;
     font-size: 1em;
-    color: color-mix(in srgb, color(srgb 1 0 0) 70%, color(srgb 0 0 1) 30%);
+    color: color-mix(in srgb, #34c9eb 0%, white);
 }
 
 :root {
@@ -177,7 +177,7 @@ p.text {
     font-weight: bold;
 }
 
-p:has(span.highlight) {
+p:has(+ span.highlight) {
     background-color: yellow;
 }
 
