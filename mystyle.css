@@ -39,7 +39,7 @@ h4{
     width: 100px;
     margin: 10px 20px 30px 40px; 
     font-size: 0.2in;
-    color: color(xyz-d50 0.3 80 0.3)
+    color: color(xyz 45 20 0);
 }
 
 /* h5 color deep red*/
@@ -48,7 +48,7 @@ h5{
     padding: 10px 20px 30px 40px;
     margin: auto;
     font-size: 1em;
-    color: color-mix(in srgb, #34c9eb 0%, white);
+    color: color-mix(from xyz, #34c9eb 0%, white);
 }
 
 :root {
