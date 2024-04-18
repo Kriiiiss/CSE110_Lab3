@@ -1,0 +1,197 @@
+h1{
+    background-color: greenyellow
+}
+
+.jersey-20-charted-regular {
+    font-family: "Jersey 20 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* h2 color red */
+h2 {
+
+    position: static;
+    display: block;
+    width: 15vw;
+    height: 20vh;
+    font-size: 0.8cm;
+    color: #ef0505;
+    margin-left: 40px;
+}
+
+/* h3 color green */
+h3{
+    position: relative;
+    display:inline;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 10px;
+    margin-left: 1cm;
+    font-size: 30q;
+    color: hsl(122, 92%, 46%)
+}
+
+/* h4 color pink*/
+h4{
+    height: 100px;
+    width: 100px;
+    margin: 10px 20px 30px 40px; 
+    font-size: 0.2in;
+    color: color(display-p3 1 0 0.331)
+}
+
+/* h5 color deep red*/
+h5{
+    max-width:200px;
+    padding: 10px 20px 30px 40px;
+    margin: auto;
+    font-size: 1em;
+    color: color-mix(in srgb, color(srgb 1 0 0) 70%, color(srgb 0 0 1) 30%);
+}
+
+:root {
+    --main-bg-color: coral;
+}
+
+h6 {
+    min-width:100px;
+    padding-top: 10px;
+    font-size: 1rem;
+    color: var(--main-bg-color, pink);
+}
+
+p{
+    color:orange;
+    text-decoration: underline;
+    text-align:left;
+}
+
+button:hover {
+    color: blue;
+}
+
+button:active{
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 150px;
+    margin: 10px;
+    padding: 20px;
+    background-color: red;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    align-items: start;
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: coral;
+    border: 1px solid white;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: 80%;
+        padding: 40px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        width: 60%;
+        margin: auto;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+
+.text {
+    color: blue;
+}
+
+#container {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 16px;
+}
+
+input[type="text"] {
+    border: 1px solid grey;
+}
+
+p:hover {
+    color: green;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+#container ul {
+    margin-top: 20px;
+}
+
+div > ul {
+    padding-left: 0;
+}
+
+.input ~ button {
+    margin-top: 10px;
+}
+
+input + button {
+    background-color: lightblue;
+}
+
+p.text {
+    font-weight: bold;
+}
+
+p:has(span.highlight) {
+    background-color: yellow;
+}
+
+.example {
+    font-family: system-ui;
+    font-size: 1.2rem;
+}
+  
+.example > a {
+    color: tomato;
+}
+  
+.example > a:hover,
+.example > a:focus {
+    color: ivory;
+    background-color: tomato;
+}
