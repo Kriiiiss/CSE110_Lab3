@@ -12,3 +12,6 @@
 
 ## Meeting content:
 
+## Plan:
+
+## Important:
