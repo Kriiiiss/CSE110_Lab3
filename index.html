@@ -5,10 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meeting Minutes</title>
         <link rel="ico" href="favicon.ico">
+        <link rel="stylesheet" href="mystyle.css">
+        <style>
+            body {
+                background-color: lightblue;
+            } 
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>CSE110 Meeting Minutes</h1>
+            <h1 style="color:rgb(7, 7, 216);text-align:center;">CSE110 Meeting Minutes</h1>
             <h2>Date: Apr 10, 2024</h2>
             <h3>Author: Kris</h3>
 
@@ -24,7 +33,7 @@
         <main>
             <hr>
             <p>group 1</p>
-            <div>1. Introduction</div>
+            <div class="jersey-20-charted-regular">1. Introduction</div>
             <span>This is CSE110 Lab2</span>
             <h4>Attendance list</h4>
                 <ol>
@@ -77,7 +86,7 @@
 
             </fieldset>
                 
-            <h4>Choose your age</h4>
+            <h6>Choose your age</h6>
             <p>Your age: <input list="Age"></p>
             <datalist id="Age">
                 <option value="0-10">
@@ -99,6 +108,38 @@
 
         <footer>
             <button>Click!</button>
+
+            <ul class="container">
+                <li class="item">1</li>
+                <li class="item">2</li>
+                <li class="item">3</li>
+            </ul>
+
+            <hr>
+
+            <div class="grid-container">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+            </div>
+
+            <div id="container">
+                <p class="text">Hello, <span class="highlight">world!</span></p>
+                <ul>
+                    <li class="item">Item 1</li>
+                    <li class="item">Item 2</li>
+                    <li class="special">Special Item</li>
+                    <li>Item 4</li>
+                </ul>
+                <button type="button">Click</button>
+                <input type="text" placeholder="Type" required>
+            </div>
+
+
+            <p class="example">
+                This paragraph <a href="#">contains a link</a>, try hovering or focusing it.
+            </p>
+            
         </footer>
     </body>
 </html>
