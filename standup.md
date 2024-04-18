@@ -1,4 +1,4 @@
-# Standup
+# Standup Template
 
 ## Team name:
 
